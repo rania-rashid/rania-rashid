@@ -2,91 +2,84 @@
 
 <p align="center">
 BS Artificial Intelligence student · Ghazi University, Dera Ghazi Khan, Pakistan (2025–2029)<br>
-Building toward AI engineering: backend and data foundations first, then ML and NLP/LLMs.<br>
-<b>Open to remote internships and freelance projects.</b>
+<b>Building toward AI engineering — backend and data foundations first, then ML and NLP/LLMs.</b>
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/rania-rashid00/">LinkedIn</a> ·
-<a href="https://raniarashid780-sketch.github.io/">Portfolio</a> ·
-<a href="mailto:raniarashid780@gmail.com">Email</a>
+<a href="https://www.linkedin.com/in/rania-rashid00/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:raniarashid780@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+<a href="https://raniarashid780-sketch.github.io/"><img src="https://img.shields.io/badge/Portfolio-E8B04A?style=for-the-badge&logo=googlechrome&logoColor=0E1116" alt="Portfolio"></a>
 </p>
 
 ---
 
+## 🧭 What I do
 
-## Projects
+<table>
+<tr>
+<td width="33%" valign="top">
 
-### [SmartCare-Clinic](https://github.com/raniarashid780-sketch/SmartCare-Clinic)
-Clinic appointment system, rebuilt in stages from a terminal script into a REST API.
-- **Database:** four tables with foreign keys; `UNIQUE(doctor_id, time_slot)` blocks the same doctor being booked twice in the same slot at the database level; schema changes go through versioned Alembic migrations.
-- **API:** FastAPI endpoints with Pydantic validation; rule-based symptom routing to specialties and urgent-case billing.
-- **Deployment:** Docker Compose runs the API and PostgreSQL as two containers, with healthcheck-gated startup, automatic migrations, and a persistent data volume.
-- **Known limit:** the constraint blocks identical slots only; overlapping appointment windows are not yet prevented.
+**Backend, databases & deployment**<br>
+FastAPI · Pydantic · PostgreSQL · SQLAlchemy · Alembic · Docker Compose
 
-```mermaid
-flowchart LR
-    U[Client / Swagger UI] --> A[FastAPI + Pydantic validation]
-    A --> S[SQLAlchemy models]
-    S --> D[(PostgreSQL<br/>UNIQUE doctor_id + time_slot)]
-    M[Alembic migrations] --> D
-    subgraph Docker Compose
-        A
-        D
-    end
-```
+</td>
+<td width="33%" valign="top">
 
-`Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker`
+**Data work**<br>
+pandas · NumPy · matplotlib · cleaning and analyzing messy data (24 Upwork listings)
 
-### [File Organizer](https://github.com/raniarashid780-sketch/File-Organizer)
-Sorts Downloads and Desktop files by type and date. [Live demo →](https://raniarashid780-sketch-file-organizer-autom-streamlit-app-sypeq4.streamlit.app/)
-- **Built to be safe:** colliding names get a numbered suffix instead of overwriting; `--dry-run` previews every move; pytest suite.
-- **Two bugs I found in my own first version and fixed:** silent overwrites when two files shared a name, and the script re-scanning its own output folders on rerun.
+</td>
+<td width="33%" valign="top">
 
-`Python · pathlib · pytest · Streamlit`
+**Automation**<br>
+Python file handling with pathlib · pytest-tested · Streamlit interface
 
-### [FreelanceLens](https://github.com/raniarashid780-sketch/Freelancelens)
-Analysis of 24 manually collected Upwork listings: most requested skills and average posted budget by category, with fixed-price and hourly kept separate because they are different units.
-- **Limits stated up front:** small sample (several categories have only 2–3 listings), budgets recorded at range minimum, posted budgets are not realized pay. Results are directional only.
+</td>
+</tr>
+</table>
 
-`Python · pandas · NumPy · matplotlib`
+## 🎯 Where I'm headed
 
----
+<table>
+<tr>
+<td width="33%" valign="top">
 
-## The path so far
+**Now**<br>
+Linear algebra, probability and statistics, scikit-learn
 
-```mermaid
-flowchart LR
-    A[CSV terminal app] --> B[PostgreSQL] --> C[SQLAlchemy + Alembic] --> D[FastAPI] --> E[Docker Compose]
-    E -.-> F[scikit-learn → PyTorch] -.-> G[NLP / LLM apps]
-    classDef shipped fill:#E8B04A,stroke:#E8B04A,color:#0E1116;
-    classDef next fill:none,stroke:#7A8593,stroke-dasharray: 4 4;
-    class A,B,C,D,E shipped;
-    class F,G next;
-```
+</td>
+<td width="33%" valign="top">
 
-Solid = shipped in SmartCare-Clinic. Dashed = what I'm learning next.
+**Next**<br>
+PyTorch, NLP, LLM applications
 
----
-## How I work
-- Schema changes are migrations, not manual edits.
-- Safety before speed: preview, collision handling and tests before a tool touches real files.
-- I write down a project's limits next to its results.
-- Configuration comes from environment variables, not code.
+</td>
+<td width="33%" valign="top">
 
-## Learning now
-Linear algebra, probability and statistics, and machine learning with scikit-learn; then PyTorch, NLP and LLM applications.
+**Goal**<br>
+AI engineer building and deploying NLP/LLM applications
 
-## Stack
-<p>
-<img src="https://skillicons.dev/icons?i=python,postgres,fastapi,docker,git,github,pandas,numpy" />
-</p>
+</td>
+</tr>
+</table>
 
-Python · SQL · PostgreSQL · SQLAlchemy · Alembic · FastAPI · Pydantic · Docker · pandas · NumPy · matplotlib · Streamlit · pytest · Git
+## 🛠️ What I've built
 
-## Certifications
-- Google IT Automation with Python Professional Certificate ([credential](https://www.coursera.org/account/accomplishments/specialization/WD7H4D5P9PVF))
-- TEVTA Certified Computer Operator
+| Project | What it is | Stack |
+|---|---|---|
+| [**SmartCare-Clinic**](https://github.com/raniarashid780-sketch/SmartCare-Clinic) | Clinic appointment REST API. Rule-based symptom routing, same-slot double-booking blocked at the database level, versioned Alembic migrations, Docker Compose. | Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker |
+| [**File Organizer**](https://github.com/raniarashid780-sketch/File-Organizer) | Sorts files by type and date. Collision-safe, `--dry-run` preview, pytest suite. [Live demo →](https://raniarashid780-sketch-file-organizer-autom-streamlit-app-sypeq4.streamlit.app/) | Python · pathlib · pytest · Streamlit |
+| [**FreelanceLens**](https://github.com/raniarashid780-sketch/Freelancelens) | Analysis of 24 manually collected Upwork listings. Small sample, limits documented. | Python · pandas · NumPy · matplotlib |
+
+## 🎓 Background
+
+- **Education:** BS Artificial Intelligence, Ghazi University (2025–2029)
+- **Certifications:** Google IT Automation with Python Professional Certificate ([credential](https://www.coursera.org/account/accomplishments/specialization/WD7H4D5P9PVF)) · TEVTA Certified Computer Operator
+
+## 🤝 Open to
+
+- **Internships** — remote
+- **Freelance** — small Python automation, pandas data cleaning, simple FastAPI + PostgreSQL backends
 
 ### 📊 GitHub Stats
 
