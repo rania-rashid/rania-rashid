@@ -8,7 +8,7 @@ BS Artificial Intelligence student · Ghazi University, Dera Ghazi Khan, Pakista
 <p align="center">
 <a href="https://www.linkedin.com/in/rania-rashid00/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:raniarashid780@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
-<a href="https://raniarashid780-sketch.github.io/"><img src="https://img.shields.io/badge/Portfolio-E8B04A?style=for-the-badge&logo=googlechrome&logoColor=0E1116" alt="Portfolio"></a>
+<a href="https://rania-rashid.github.io/"><img src="https://img.shields.io/badge/Portfolio-E8B04A?style=for-the-badge&logo=googlechrome&logoColor=0E1116" alt="Portfolio"></a>
 </p>
 
 ---
@@ -67,9 +67,9 @@ AI engineer building and deploying NLP/LLM applications
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**SmartCare-Clinic**](https://github.com/raniarashid780-sketch/SmartCare-Clinic) | Clinic appointment REST API. Rule-based symptom routing, same-slot double-booking blocked at the database level, versioned Alembic migrations, Docker Compose. | Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker |
-| [**File Organizer**](https://github.com/raniarashid780-sketch/File-Organizer) | Sorts files by type and date. Collision-safe, `--dry-run` preview, pytest suite. [Live demo →](https://raniarashid780-sketch-file-organizer-autom-streamlit-app-sypeq4.streamlit.app/) | Python · pathlib · pytest · Streamlit |
-| [**FreelanceLens**](https://github.com/raniarashid780-sketch/Freelancelens) | Analysis of 24 manually collected Upwork listings. Small sample, limits documented. | Python · pandas · NumPy · matplotlib |
+| [**SmartCare-Clinic**](https://github.com/rania-rashid/SmartCare-Clinic) | Clinic appointment REST API. Rule-based symptom routing, same-slot double-booking blocked at the database level, versioned Alembic migrations, Docker Compose. | Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker |
+| [**File Organizer**](https://github.com/rania-rashid/File-Organizer) | Sorts files by type and date. Collision-safe, `--dry-run` preview, pytest suite. [Live demo →](https://rania-file-organizer.streamlit.app/) | Python · pathlib · pytest · Streamlit |
+| [**FreelanceLens**](https://github.com/rania-rashid/Freelancelens) | Analysis of 24 manually collected Upwork listings. Small sample, limits documented. | Python · pandas · NumPy · matplotlib |
 
 ## 🎓 Background
 
@@ -86,15 +86,15 @@ AI engineer building and deploying NLP/LLM applications
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=raniarashid780-sketch&show_icons=true&theme=dark&hide_border=true&count_private=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=raniarashid780-sketch&show_icons=true&theme=default&hide_border=true&count_private=true">
-  <img alt="GitHub Stats" src="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=raniarashid780-sketch&show_icons=true&theme=default&hide_border=true&count_private=true" height="150">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=rania-rashid&show_icons=true&hide_title=true&hide_border=true&count_private=true&bg_color=0D1117&text_color=C9D1D9&title_color=58A6FF&icon_color=79C0FF">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=rania-rashid&show_icons=true&hide_title=true&hide_border=true&count_private=true&bg_color=FFFFFF&text_color=24292F&title_color=0969DA&icon_color=0969DA">
+  <img alt="GitHub contribution stats" src="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=rania-rashid&show_icons=true&hide_title=true&hide_border=true&count_private=true&bg_color=FFFFFF&text_color=24292F&title_color=0969DA&icon_color=0969DA" height="150">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api/top-langs/?username=raniarashid780-sketch&layout=compact&theme=dark&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api/top-langs/?username=raniarashid780-sketch&layout=compact&theme=default&hide_border=true">
-  <img alt="Top Languages" src="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api/top-langs/?username=raniarashid780-sketch&layout=compact&theme=default&hide_border=true" height="150">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api/top-langs/?username=rania-rashid&layout=compact&hide_title=true&hide_border=true&bg_color=0D1117&text_color=C9D1D9&title_color=58A6FF">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api/top-langs/?username=rania-rashid&layout=compact&hide_title=true&hide_border=true&bg_color=FFFFFF&text_color=24292F&title_color=0969DA">
+  <img alt="Most used programming languages" src="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api/top-langs/?username=rania-rashid&layout=compact&hide_title=true&hide_border=true&bg_color=FFFFFF&text_color=24292F&title_color=0969DA" height="150">
 </picture>
 
 </div>
