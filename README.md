@@ -86,9 +86,9 @@ AI engineer building and deploying NLP/LLM applications
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=rania-rashid&show_icons=true&hide_title=true&hide_border=true&count_private=true&bg_color=0D1117&text_color=C9D1D9&title_color=58A6FF&icon_color=79C0FF">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=rania-rashid&show_icons=true&hide_title=true&hide_border=true&count_private=true&bg_color=FFFFFF&text_color=24292F&title_color=0969DA&icon_color=0969DA">
-  <img alt="GitHub contribution stats" src="https://github-readme-stats-chi-one-fhtsy394dj.vercel.app/api?username=rania-rashid&show_icons=true&hide_title=true&hide_border=true&count_private=true&bg_color=FFFFFF&text_color=24292F&title_color=0969DA&icon_color=0969DA" height="150">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=rania-rashid&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=79C0FF&currStreakLabel=C9D1D9">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=rania-rashid&theme=default&hide_border=true&background=FFFFFF&ring=0969DA&fire=0969DA&currStreakLabel=24292F">
+  <img alt="GitHub contribution streak, including longest streak" src="https://streak-stats.demolab.com?user=rania-rashid&theme=default&hide_border=true&background=FFFFFF&ring=0969DA&fire=0969DA&currStreakLabel=24292F" height="150">
 </picture>
 
 <picture>
